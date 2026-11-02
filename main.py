@@ -14,7 +14,7 @@ from astrbot.api.star import Context, Star, StarTools, register
 from .mijia_service import Device, MijiaError, MijiaService, NeedLoginError
 
 PLUGIN_NAME = "astrbot_plugin_mijia"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 HELP_TEXT = """🏠 米家智能家居
 
