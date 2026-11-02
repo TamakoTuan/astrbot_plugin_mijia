@@ -218,7 +218,7 @@ astrbot_plugin_mijia/
 ## 开发
 
 ```bash
-git clone https://github.com/<your-name>/astrbot_plugin_mijia.git
+git clone https://github.com/TamakoTuan/astrbot_plugin_mijia.git
 cd astrbot_plugin_mijia
 pip install mijiaAPI
 

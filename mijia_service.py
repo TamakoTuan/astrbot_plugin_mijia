@@ -12,12 +12,9 @@ import asyncio
 import difflib
 import io
 import json
-import logging
 import time
 from pathlib import Path
 from typing import Any
-
-logger = logging.getLogger("astrbot_plugin_mijia")
 
 
 class MijiaError(Exception):
