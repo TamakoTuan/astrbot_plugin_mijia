@@ -1,0 +1,26 @@
+{
+    "admin_only": {
+        "description": "👮 仅管理员可用",
+        "type": "bool",
+        "default": true,
+        "hint": "开启后只有 AstrBot 全局配置里 admins_id 中的账号可以使用米家功能（包括自然语言工具）。强烈建议保持开启。"
+    },
+    "private_only": {
+        "description": "🔒 仅限私聊使用",
+        "type": "bool",
+        "default": true,
+        "hint": "开启后群聊里不会响应米家指令，也不会向模型暴露控制工具，避免群友误操作家电。"
+    },
+    "danger_keywords": {
+        "description": "⚠️ 高危设备关键词",
+        "type": "text",
+        "default": "门锁,门,锁,燃气,阀门,热水器,电热,安防,摄像头",
+        "hint": "设备名命中这些关键词时，指令需要二次确认，且不允许模型直接调用。多个关键词用逗号分隔。"
+    },
+    "device_aliases": {
+        "description": "🏷️ 设备别名",
+        "type": "text",
+        "default": "",
+        "hint": "一行一条，格式：别名=米家里的设备名。例如：客厅灯=米家台灯\\n大灯=客厅主灯。设置后可以用别名控制设备。"
+    }
+}
