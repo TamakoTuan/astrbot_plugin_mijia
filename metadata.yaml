@@ -7,7 +7,7 @@ desc: |
   支持扫码登录、设备列表与状态查询、开关控制、属性设置（亮度/色温/温度/模式）、
   设备动作和手动场景，同时注册了自然语言工具，可以直接说「把客厅灯调暗一点」。
   默认仅管理员私聊可用，高危设备需要二次确认。
-version: v1.0.0
+version: v1.0.1
 author: TamakoTz
 repo: https://github.com/TamakoTuan/astrbot_plugin_mijia
 astrbot_version: ">=4.10.0"
