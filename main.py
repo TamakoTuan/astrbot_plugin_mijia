@@ -61,7 +61,7 @@ def _strip_command(text: str) -> str:
 
 @register(
     PLUGIN_NAME,
-    "DSH",
+    "TamakoTz",
     "通过米家云 API 在聊天中查询与控制米家智能家居设备。",
     f"v{VERSION}",
 )
