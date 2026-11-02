@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1
+
+- 修复：移除内置 logging 依赖，日志统一使用 astrbot.api
+
 ## v1.0.0
 
 首个版本。
