@@ -8,7 +8,7 @@ desc: |
   设备动作和手动场景，同时注册了自然语言工具，可以直接说「把客厅灯调暗一点」。
   默认仅管理员私聊可用，高危设备需要二次确认。
 version: v1.0.0
-author: DSH
+author: TamakoTz
 repo: https://github.com/TamakoTuan/astrbot_plugin_mijia
 astrbot_version: ">=4.10.0"
 support_platforms:
